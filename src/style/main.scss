@@ -1,0 +1,13 @@
+@import "blocks/*";
+@import "variable";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  color: $white;
+  background-color: $black;
+  font-family: 'JetBrains Mono', monospace;
+}

@@ -1,0 +1,16 @@
+env:
+  es2017: true
+  browser: true
+  commonjs: true
+
+extends: [
+    'htmlacademy/es6'
+]
+
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+
+rules:
+  object-curly-spacing: ['error', 'always', { 'arraysInObjects': true, 'objectsInObjects': true }]
+  quote-props: ['error', 'as-needed']

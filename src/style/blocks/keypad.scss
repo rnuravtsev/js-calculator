@@ -1,0 +1,26 @@
+.keypad {
+  display: grid;
+  grid-template-areas:
+          'function arithmetic'
+          'number arithmetic';
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.keypad__inner--function {
+  grid-area: function;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.keypad__inner--arithmetic {
+  grid-area: arithmetic;
+  display: grid;
+  grid-gap: 15px;
+}
+.keypad__inner--number {
+  grid-area: number;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,36 @@
+{
+  "name": "js-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnuravtsev/js-calculator.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnuravtsev/js-calculator/issues"
+  },
+  "scripts": {
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "css-loader": "5.1.0",
+    "eslint": "7.18.0",
+    "eslint-config-htmlacademy": "2.1.0",
+    "node-sass": "4.14.1",
+    "node-sass-glob-importer": "5.3.2",
+    "prettier": "2.2.1",
+    "sass-loader": "10.0.0",
+    "style-loader": "2.0.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {}
+}

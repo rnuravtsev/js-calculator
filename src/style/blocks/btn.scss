@@ -1,0 +1,32 @@
+@import "../variable";
+
+.btn {
+  font-size: 1em;
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  border: 0;
+  border-radius: 50%;
+  transition: all 0.25s ease;
+  &:hover {
+    opacity: 0.65;
+  }
+
+  &--function {
+    background-color: $grey-light;
+  }
+
+  &--arithmetic {
+    background-color: $primary;
+  }
+
+  &--number {
+    background-color: $grey;
+  }
+  &--zero {
+    width: auto;
+    text-align: center;
+    grid-column: 1 / 3;
+    border-radius: 50px;
+  }
+}
